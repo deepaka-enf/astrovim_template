@@ -7,7 +7,7 @@
     "snippets": [
       {
         "language": "systemverilog",
-        "path": "./systemverilog.json"
+        "path": "~/.config/nvim/snippets/systemverilog.json"
       }
     ]
   }

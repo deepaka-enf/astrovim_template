@@ -22,6 +22,8 @@ return {
           ["<F2>"] = { "<esc>:w!<cr>", desc = "Save" },
           ["<F4>"] = { "<esc>:sp<cr>", desc = "Split" },
           ["<F7>"] = { "<esc><Leader>ff", desc = "Tab" },
+          ["<c-y>"] = { "<cmd>call augment#Accept()<cr>", desc = "Augment Accept Suggetion" },
+          ["<cr>"] = { "<cmd>call augment#Accept(\"\n\")<cr>", desc = "Use enter to accept a suggestion, falling back to a newline if no suggestion is available" },
           -- quick save
           -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
         },
