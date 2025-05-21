@@ -55,5 +55,6 @@ return {
   { import = "astrocommunity.colorscheme.vim-moonfly-colors" },
   { import = "astrocommunity.colorscheme.vim-nightfly-colors" },
   { import = "astrocommunity.colorscheme.vscode-nvim" },
+  { import = "astrocommunity.recipes.ai" },
   -- import/override with your plugins folder
 }
