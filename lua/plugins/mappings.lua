@@ -12,6 +12,7 @@ return {
           ["<F2>"] = { ":w!<cr>", desc = "Save" },
           ["<F4>"] = { ":sp<cr>", desc = "Split" },
           ["<F7>"] = { "<Leader>ff", desc = "Tab" },
+          ["<leader>fG"] = { ":lua require('telescope').extensions.live_grep_args.live_grep_args()<CR>", desc = "grep" },
           -- quick save
           -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
         },

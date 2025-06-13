@@ -1,2 +1,5 @@
 lazy-lock.json
 *.sw*
+PAT
+*.log
+
